@@ -4,14 +4,14 @@ import 'products_grid.dart';
 
 enum FilterOptions { favorites, all }
 
-class productsOverviewScreen extends StatefulWidget {
-  const productsOverviewScreen({super.key});
+class ProductsOverviewScreen extends StatefulWidget {
+  const ProductsOverviewScreen({super.key});
 
   @override
-  State<productsOverviewScreen> createState() => _productsOverviewScreenState();
+  State<ProductsOverviewScreen> createState() => _ProductsOverviewScreenState();
 }
 
-class _productsOverviewScreenState extends State<productsOverviewScreen> {
+class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
   var _showOnlyFavorites = false;
 
   @override
