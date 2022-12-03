@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../models/cart_item.dart';
-import '../share/dialog_utils.dart';
+import '../shared/dialog_utils.dart';
 
 class CartItemCard extends StatelessWidget {
   final String productId;
